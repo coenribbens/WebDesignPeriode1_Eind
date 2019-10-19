@@ -1,0 +1,44 @@
+.carousel-inner {
+    height: 60vh;
+  }
+  
+  .col-lg-12 {
+    margin-top: 50px;
+  }
+  
+  .footer-top {
+    margin-top: 100px;
+    background: #1c1c1c;
+  }
+  
+  .container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-items {
+    color: #f8f8f8;
+    list-style: none;
+    list-style-type: none;
+  }
+  
+  .container {
+    margin-top: 50px;
+  }
+  
+  .footer-copyright {
+    background-color: #222222;
+    color: #f8f8f8;
+  }
+  ul{
+      list-style-type: none;
+     
+  }
+  .footer-link {
+    color: #f8f8f8;
+    margin-top: 5px;
+  }
