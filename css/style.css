@@ -1,30 +1,3 @@
-.carousel-inner {
-  height: 60vh;
-}
-
-.col-lg-12 {
-  margin-top: 50px;
-}
-
-.footer-top {
-  margin-top: 100px;
-  background: #1c1c1c;
-}
-
-.container-fluid {
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  padding: 20px;
-  text-align: center;
-}
-
-.footer-items {
-  color: #f8f8f8;
-  list-style: none;
-}
-
 .container {
   margin-top: 50px;
 }
@@ -32,4 +5,18 @@
 .footer-copyright {
   background-color: #222222;
   color: f8f8f8;
+}
+.table, th, td {
+  border: 1px solid rgb(158, 154, 154);
+  border-collapse: collapse;
+}
+.th, td {
+  padding: 5px;
+}
+
+.tab-link{
+  font-size: 0.875rem;
+line-height: 1;
+display: block;
+padding: .825rem 1rem;
 }

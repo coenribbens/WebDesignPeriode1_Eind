@@ -7,7 +7,8 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
   <link rel="stylesheet" type="text/css" href="css/style.css" />
-  <script src="js/indexjs.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/global.css" />
+  <script src="js/jaaropbouw.js"></script>
   <title>Programmeren bij Avans</title>
 </head>
 
@@ -48,78 +49,405 @@
     </div>
   </div>
 
-  <!-- Footer -->
-  <footer>
-    <!--The categories and links-->
-    <div class="footer-top">
-      <!--Resizable container-->
-      <div class="container-fluid">
-        <!--Way to put everything on the same line-->
-        <div class="footer-items">
-          <div class="row">
+  <div class="breakout-box">
+    <ul class="tabs nav-tabs">
+      <li class="tab_item">
+        <a class="tab_link" href="#" data-year="jaar-1" onclick="ShowFirstYear">1<sup>e</sup> jaar</a>
+      </li>
+      <li class="tab_item">
+        <a class="tab_link" href="#" data-year="jaar-2" onclick="ShowSecondYear">2<sup>e</sup>
+          jaar</a>
+      </li>
+      <li class="tab_item">
+        <a class="tab_link" href="#" data-year="jaar-3" onclick="ShowThirdYear">3<sup>e</sup> jaar</a>
+      </li>
+      <li class="tab_item">
+        <a class="tab_link" href="#" data-year="jaar-4" onclick="ShowFourthYear">4<sup>e</sup> jaar</a>
+      </li>
+    </ul>
+    <table class="jaar1" style="display: table">
+      <thead>
+        <tr>
+          <th>Vak</th>
+          <th>Periode 1</th>
+          <th>Periode 2</th>
+          <th>Periode 3</th>
+          <th>Periode 4</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+      <tr>
+        <td>Bedrijfsprocessen</td>
+        <td bgcolor="#3b8a58"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Beroepsoriëntatie</td>
+        <td bgcolor="#3b8a58"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Nederlands</td>
+        <td bgcolor="#3b8a58"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Programmeren in Java en Android</td>
+        <td bgcolor="#3b8a58"></td>
+        <td bgcolor="#3b8a58"></td>
+        <td bgcolor="#3b8a58"></td>
+        <td bgcolor="#3b8a58"></td>
+      </tr>
+      <tr>
+        <td>Relationele Databases</td>
+        <td bgcolor="#3b8a58"></td>
+        <td bgcolor="#3b8a58"></td>
+        <td bgcolor="#3b8a58"></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Studievaardigheden</td>
+        <td bgcolor="#3b8a58"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Webdesign</td>
+        <td bgcolor="#3b8a58"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Engelse Taal</td>
+        <td></td>
+        <td bgcolor="#3b8a58"></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Duurzame Ontwikkeling</td>
+        <td></td>
+        <td bgcolor="#3b8a58"></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Professionele Vaardigheden</td>
+        <td></td>
+        <td bgcolor="#3b8a58"></td>
+        <td></td>
+        <td bgcolor="#3b8a58"></td>
+      </tr>
+      <tr>
+        <td>Requirements Engineering</td>
+        <td></td>
+        <td bgcolor="#3b8a58"></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Onderzoeksvaardigheden</td>
+        <td></td>
+        <td></td>
+        <td bgcolor="#3b8a58"></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Project Management & Software Engineering</td>
+        <td></td>
+        <td></td>
+        <td bgcolor="#3b8a58"></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Softwareontwerp & -architectuur</td>
+        <td></td>
+        <td></td>
+        <td bgcolor="#3b8a58"></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Computernetwerken</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td bgcolor="#3b8a58"></td>
+      </tr>
+      <tr>
+        <td>Scrum project</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td bgcolor="#3b8a58"></td>
+      </tr>
+      </tbody>
+    </table>
 
-            <div class="col-md-4">
-              <h4>Handige Links</h4>
-              <ul>
-                <li>
-                  <a href="https://www.avans.nl/opleidingen/opleidingzoeker/informatica-breda-voltijd-bachelor/introductie"
-                    target="_blank">Informatica te Avans Hogeschool</a>
-                </li>
-                <li>
-                  <a href="http://www.technischwerken.nl/kennisbank/techniek-kennis/wat-is-informatica/"
-                    target="_blank">Wat is informatica?</a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-md-4">
-              <h4>Bronnnelijst</h4>
-              <ul>
-                <li>
-                  <a href="http://www.technischwerken.nl/kennisbank/techniek-kennis/wat-is-informatica/">Technischwerken:
-                    Informatica</a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-md-4">
-              <h4>Snelmenu</h4>
-              <ul>
-                <li>
-                  <a href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="jaaropbouw.html">Jaaropbouw</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="doelenEnReflectie.html">Doelen en reflectie</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-              </ul>
+
+    <table class="jaar2" style="display: none">
+      <thead>
+        <tr>
+          <th>Vak</th>
+          <th>Periode 1</th>
+          <th>Periode 2</th>
+          <th>Periode 3</th>
+          <th>Periode 4</th>
+        </tr>
+      </thead>
+      <tbody <tr>
+        <td>User Experience</td>
+        <td bgcolor="#3b8a58"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        </tr>
+        <tr>
+          <td>Scrum Project</td>
+          <td bgcolor="#3b8a58"></td>
+          <td bgcolor="#3b8a58"></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Server-side webdevelopment (ASP.net)</td>
+          <td bgcolor="#3b8a58"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Algoritmen & Datastructuren</td>
+          <td></td>
+          <td bgcolor="#3b8a58"></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Client-side webdevelopment (javaScript)</td>
+          <td></td>
+          <td bgcolor="#3b8a58"></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Big data/machine learning</td>
+          <td></td>
+          <td></td>
+          <td bgcolor="#3b8a58"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Business intelligence</td>
+          <td></td>
+          <td></td>
+          <td bgcolor="#3b8a58"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Security</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td bgcolor="#3b8a58"></td>
+        </tr>
+        <tr>
+          <td>Computernetwerken</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td bgcolor="#3b8a58"></td>
+        </tr>
+        <tr>
+          <td>Professionele Vaardigheden</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td bgcolor="#3b8a58"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <table class="jaar3" style="display: none">
+    <thead>
+      <tr>
+        <th>Vak</th>
+        <th>Periode 1</th>
+        <th>Periode 2</th>
+        <th>Periode 3</th>
+        <th>Periode 4</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Praktijkstage</td>
+        <td bgcolor="#3b8a58"></td>
+        <td bgcolor="#3b8a58"></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Professionele vaardigheden (ethiek)</td>
+        <td></td>
+        <td></td>
+        <td bgcolor="#3b8a58"></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Security</td>
+        <td></td>
+        <td></td>
+        <td bgcolor="#3b8a58"></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Software architectuurs</td>
+        <td></td>
+        <td></td>
+        <td bgcolor="#3b8a58"></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Artificial Intelligence</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td bgcolor="#3b8a58"></td>
+      </tr>
+      <tr>
+        <td>Serious gaming</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td bgcolor="#3b8a58"></td>
+      </tr>
+      <tr>
+        <td>Solution architecture</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td bgcolor="#3b8a58"></td>
+      </tr>
+      <tr>
+        <td>User Experience</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td bgcolor="#3b8a58"></td>
+      </tr>
+    </tbody>
+    </div>
+
+    <table class="jaar4" style="display: none">
+      <thead>
+        <tr>
+          <th>Vak</th>
+          <th>Periode 1</th>
+          <th>Periode 2</th>
+          <th>Periode 3</th>
+          <th>Periode 4</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Minor</td>
+          <td bgcolor="#3b8a58"></td>
+          <td bgcolor="#3b8a58"></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Afstudeerstage</td>
+          <td></td>
+          <td></td>
+          <td bgcolor="#3b8a58"></td>
+          <td bgcolor="#3b8a58"></td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <!--The categories and links-->
+      <div class="footer-top">
+        <!--Resizable container-->
+        <div class="container-fluid">
+          <!--Method to put everything on the same line-->
+          <div class="footer-items">
+            <div class="row">
+              <div class="col-md-4">
+                <h4>Handige Links</h4>
+                <ul>
+                  <li>
+                    <a class="footer-link"
+                      href="https://www.avans.nl/opleidingen/opleidingzoeker/informatica-breda-voltijd-bachelor/introductie"
+                      target="_blank">Informatica te Avans Hogeschool</a>
+                  </li>
+                  <li>
+                    <a class="footer-link"
+                      href="http://www.technischwerken.nl/kennisbank/techniek-kennis/wat-is-informatica/"
+                      target="_blank">Wat is informatica?</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <h4>Bronnnelijst</h4>
+                <ul>
+                  <li>
+                    <a class="footer-link"
+                      href="http://www.technischwerken.nl/kennisbank/techniek-kennis/wat-is-informatica/"
+                      target="_blank">Technischwerken:
+                      Informatica</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <h4>Snelmenu</h4>
+                <ul>
+                  <li>
+                    <a class="footer-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="footer-link" href="jaaropbouw.html">Jaaropbouw</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="footer-link" href="doelenEnReflectie.html">Doelen en reflectie</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="footer-link" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-  </footer>
-  <!--End of footer-->
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">
+          <p>© 2019 Copyright. Licensed under the MIT-License</p>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
 
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">
-    <p>© 2019 Copyright. Licensed under the MIT-License</p>
-  </div>
-  <!-- Copyright -->
-  </footer>
-  <!-- Footer -->
-  <!--Rest of the imports for bootstrap-->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+    <!--Rest of the imports for bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>

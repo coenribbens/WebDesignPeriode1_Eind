@@ -6,7 +6,8 @@
   <!--Import bootstrap-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/contact.css" />
+  <link rel="stylesheet" type="text/css" href="css/global.css" />
   <script src="js/indexjs.js"></script>
   <title>Programmeren bij Avans</title>
 </head>
@@ -33,54 +34,35 @@
     </div>
   </nav>
 
-  <!-- Make sure elements are sized in their parent. The body is not sizeable like that -->
-  <div id="header">
-    <div id="carouselContainer" class="carousel slide w-100" data-ride="carousel">
-      <!-- Indicators -->
-      <ul class="carousel-indicators">
-        <li data-target="#demo" data-slide-to="0" class="active"></li>
-        <li data-target="#demo" data-slide-to="1"></li>
-        <li data-target="#demo" data-slide-to="2"></li>
-      </ul>
-      <!-- The slideshow -->
-      <div class="carousel-inner">
-        <!-- Scale the innner of the carousel to 60% viewheight -->
-        <div class="carousel-item active">
-          <img class="d-block w-100" src="img/695933.jpg" />
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--Start of introduction text-->
+
+  <!--The personal portraits and explanation of the function about this website-->
   <div class="container">
     <div class="row">
       <!-- Break of full width -->
-      <div class="col-lg-12 col-md-12 col-xs-12">
-        <h2>Welkom op Avans!</h2>
-        <p>Software is overal waar je kijkt, op je smartphone, op je computer en zelfs bij auto's.
-          Bij informatica leer je programmeren, ofterwijl het "bouwen" van het gedrag dat de software moet volgen.
-          Als dit interessant klinkt is de opleiding informatica misschien iets voor jou! Deze website bevat informatie
-          over de informatica professie</p>
+      <div class="col-lg-3 col-md-3 col-xs-3">
+        <img class="img-responsive img-contact light-shadow" src="img/Coen Ribbens.jpg">
+        <h3>Coen Ribbens</h3>
+        <p>Klas: A</p>
+        <p>Studentennummer: 2151482</p>
       </div>
-    </div>
-  </div>
-
-  <!--Start of explanation of the actual education -->
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-8 col-xs-8">
-        <h3>Wat is informatica eigenlijk?</h3>
-        <p>
-          Informatica is een wetenschap of studie die zich richt op de implementatie en toepassing in van informatie en
-          gegevens in computersystemen.
-          Om het simpeler te maken is informatica het maken van de logica die computersystemen moeten volgen, en deze
-          systemen ook installeren op deze systemen.
-          Hiernaast heeft een informaticus de taak van beheren en manipuleren van gegevens op een zo effectief mogelijke
-          manier zodat andere personen de gegevens makkelijk kunnen raadplegen, bewerken en verwerken.
+      <div class="col-lg-3 col-md-3 col-xs-3">
+        <img class="img-responsive img-contact light-shadow" src="img/Rafael.jpg">
+        <h3>Rafael Binnenmarsch</h3>
+        <p>Klas: A</p>
+        <p>Studentennummer:</p>
+      </div>
+      <div class="col-lg-6 col-md-6 col-xs-6">
+        <h4>Het doel</h4>
+        <hr>
+        <p>Het doel van deze website is het informeren over het vakgebied informatica.
+          Hiernaast ook het informeren over de opleiding informatica op Avans Hogeschool.
+          We hopen dat met deze pagina, mensen beter geinformeerd zijn over het vakgebied informatica en wat Avans
+          Hogeschool te bieden heeft.
         </p>
       </div>
     </div>
   </div>
+
 
   <!-- Footer -->
   <footer>
@@ -88,19 +70,20 @@
     <div class="footer-top">
       <!--Resizable container-->
       <div class="container-fluid">
-        <!--Way to put everything on the same line-->
+        <!--Method to put everything on the same line-->
         <div class="footer-items">
           <div class="row">
-
             <div class="col-md-4">
               <h4>Handige Links</h4>
               <ul>
                 <li>
-                  <a href="https://www.avans.nl/opleidingen/opleidingzoeker/informatica-breda-voltijd-bachelor/introductie"
+                  <a class="footer-link"
+                    href="https://www.avans.nl/opleidingen/opleidingzoeker/informatica-breda-voltijd-bachelor/introductie"
                     target="_blank">Informatica te Avans Hogeschool</a>
                 </li>
                 <li>
-                  <a href="http://www.technischwerken.nl/kennisbank/techniek-kennis/wat-is-informatica/"
+                  <a class="footer-link"
+                    href="http://www.technischwerken.nl/kennisbank/techniek-kennis/wat-is-informatica/"
                     target="_blank">Wat is informatica?</a>
                 </li>
               </ul>
@@ -109,7 +92,9 @@
               <h4>Bronnnelijst</h4>
               <ul>
                 <li>
-                  <a href="http://www.technischwerken.nl/kennisbank/techniek-kennis/wat-is-informatica/">Technischwerken:
+                  <a class="footer-link"
+                    href="http://www.technischwerken.nl/kennisbank/techniek-kennis/wat-is-informatica/"
+                    target="_blank">Technischwerken:
                     Informatica</a>
                 </li>
               </ul>
@@ -118,32 +103,30 @@
               <h4>Snelmenu</h4>
               <ul>
                 <li>
-                  <a href="index.html">Home</a>
+                  <a class="footer-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="jaaropbouw.html">Jaaropbouw</a>
+                  <a class="footer-link" href="jaaropbouw.html">Jaaropbouw</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="doelenEnReflectie.html">Doelen en reflectie</a>
+                  <a class="footer-link" href="doelenEnReflectie.html">Doelen en reflectie</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
+                  <a class="footer-link" href="contact.html">Contact</a>
                 </li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-  </footer>
-  <!--End of footer-->
-
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">
-    <p>© 2019 Copyright. Licensed under the MIT-License</p>
-  </div>
-  <!-- Copyright -->
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">
+        <p>© 2019 Copyright. Licensed under the MIT-License</p>
+      </div>
+      <!-- Copyright -->
   </footer>
   <!-- Footer -->
+
   <!--Rest of the imports for bootstrap-->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
