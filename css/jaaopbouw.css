@@ -1,8 +1,8 @@
-.col-lg-12{
-    color: black;
-    position: relative;
+.tab-content{
+color: black;
+position: relative;
 min-height: 1px;
 padding-right: 15px;
 padding-left: 15px;
-border-color: aqua;
+border: 1px solid #ddd;
 }
