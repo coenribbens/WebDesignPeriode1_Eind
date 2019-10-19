@@ -1,3 +1,7 @@
+.nav-link:hover{
+background-color: green;
+}
+
 .carousel-inner {
     height: 60vh;
   }
