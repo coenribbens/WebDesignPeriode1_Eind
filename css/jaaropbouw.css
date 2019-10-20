@@ -9,3 +9,6 @@
 .filled {
   background-color: #1d1d1d;
 }
+.img-responsive{
+  max-height: 200px;
+}
