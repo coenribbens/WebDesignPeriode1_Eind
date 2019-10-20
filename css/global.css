@@ -6,9 +6,13 @@ background-color: green;
   height: 40vh;
 }
 
+.footer-items ul {
+  padding-inline-start: 0px;
+}
+
 .footer-copyright {
   background-color: #222222;
-  color: f8f8f8;
+  color: #f8f8f8;
 }
 
 .footer-top {
@@ -22,7 +26,6 @@ background-color: green;
   margin-top: 15px;
   margin-bottom: 15px;
   padding: 20px;
-  text-align: center;
 }
 
 .footer-items {
@@ -38,6 +41,10 @@ background-color: green;
 .footer-copyright {
   background-color: #222222;
   color: #f8f8f8;
+}
+
+.footer-copyright p {
+  margin-bottom: 0;
 }
 
 ul {
