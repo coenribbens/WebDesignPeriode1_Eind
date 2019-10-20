@@ -6,13 +6,11 @@
 	<!--Import bootstrap-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
 	<link rel="stylesheet" type="text/css" href="css/global.css" />
-	<script src="js/jaaropbouw.js"></script>
 	<title>Programmeren bij Avans</title>
+
+
 </head>
 
 <body>
@@ -31,8 +29,8 @@
 				<li class="nav-item">
 					<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link active" href="jaaropbouw.html">Jaaropbouw</a>
+				<li class="nav-item active">
+					<a class="nav-link" href="jaaropbouw.html">Jaaropbouw</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="doelenEnReflectie.html">Doelen en reflectie</a>
@@ -93,17 +91,29 @@
 
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12">
-					<ul class="nav nav-pills center-pills">
-						<li class="active"><a data-toggle="pill" href="#year1">Jaar 1</a></li>
-						<li><a data-toggle="pill" href="#year2">Jaar 2</a></li>
-						<li><a data-toggle="pill" href="#year3">Jaar 3</a></li>
-						<li><a data-toggle="pill" href="#year4">Jaar 4</a></li>
+					<ul class="nav nav-pills" role="tablist">
+						<li class="nav-item">
+							<a class="nav-link active" data-toggle="pill" href="#year1" role="tab" aria-controls="home"
+								aria-selected="true">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="pill" href="#year2" role="tab" aria-controls="profile"
+								aria-selected="false">Profile</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="pill" href="#year3" role="tab" aria-controls="contact"
+								aria-selected="false">Contact</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="pill" href="#year4" role="tab" aria-controls="contact"
+								aria-selected="false">Contact</a>
+						</li>
 					</ul>
 				</div>
 
 				<div class="col-lg-12 col-md-12 col-sm-12">
 					<div class="tab-content">
-						<div id="year1" class="tab-pane fade in active">
+						<div id="year1" class="tab-pane fade show active">
 							<table class="table table-bordered table-striped">
 								<thead>
 									<tr>
@@ -495,6 +505,8 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
 		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
 	</script>
+	<script src="js/jaaropbouw.js"></script>
+
 </body>
 
 </html>
