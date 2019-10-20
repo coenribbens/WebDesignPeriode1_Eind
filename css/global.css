@@ -10,6 +10,14 @@ background-color: green;
   height: 40vh;
 }
 
+.footer-items {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 20px;
+}
+
 .footer-items ul {
   padding-inline-start: 0px;
 }
@@ -22,14 +30,6 @@ background-color: green;
 .footer-top {
   margin-top: 100px;
   background: #1c1c1c;
-}
-
-.container-fluid {
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  padding: 20px;
 }
 
 .footer-items {
