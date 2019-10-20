@@ -1,0 +1,14 @@
+#year-pills {
+    margin-bottom: 20px;
+  }
+
+#year-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background-color: #1d1d1d;
+}
+
+.filled {
+  background-color: #1d1d1d;
+}
+.img-responsive{
+  max-height: 200px;
+}
