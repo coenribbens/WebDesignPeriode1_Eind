@@ -1,26 +1,31 @@
 function ShowFirstYear() {
+    debugger
     disableAllElements();
-    document.getElementById('jaar1').style.display = "block";
+    document.getElementById('year1').style.display = "block";
 }
 
 function ShowSecondYear() {
+    debugger
     disableAllElements();
-    document.getElementById('jaar2').style.display = "block";
+    document.getElementById('year2').style.display = "block";
 }
 
 function ShowThirdYear() {
+    debugger
     disableAllElements();
-    document.getElementById('jaar3').style.display = "block";
+    document.getElementById('year3').style.display = "block";
 }
 
 function ShowFourthYear() {
+    debugger
     disableAllElements();
-    document.getElementById('jaar4').style.display = "block";
+    document.getElementById('year4').style.display = "block";
 }
 
 function disableAllElements() {
-    document.getElementById('jaar1').style.display = "none";
-    document.getElementById('jaar2').style.display = "none";
-    document.getElementById('jaar3').style.display = "none";
-    document.getElementById('jaar4').style.display = "none";
+    debugger
+    document.getElementById('year1').style.display = "none";
+    document.getElementById('year2').style.display = "none";
+    document.getElementById('year3').style.display = "none";
+    document.getElementById('year4').style.display = "none";
 }
