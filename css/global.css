@@ -6,6 +6,11 @@ background-color: green;
   height: 40vh;
 }
 
+.footer-copyright {
+  background-color: #222222;
+  color: f8f8f8;
+}
+
 .footer-top {
   margin-top: 100px;
   background: #1c1c1c;
@@ -43,4 +48,16 @@ ul {
 .footer-link {
   color: #f8f8f8;
   margin-top: 5px;
+}
+
+.table,
+th,
+td {
+  border: 1px solid rgb(158, 154, 154);
+  border-collapse: collapse;
+}
+
+.th,
+td {
+  padding: 5px;
 }
