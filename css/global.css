@@ -2,7 +2,11 @@
 background-color: green;
 } */
 
-.carousel-inner {
+.bg-darker {
+  background-color: #1c1c1c !important;
+}
+
+.carousel-inner, .carousel-item {
   height: 40vh;
 }
 
